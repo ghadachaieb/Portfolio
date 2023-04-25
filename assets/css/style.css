@@ -316,7 +316,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/ghada1.jpg");
+  background: url("../img/R.jpg");
   background-size: cover;
   position: relative;
 }
@@ -611,7 +611,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/ghada2.png") center center no-repeat;
+  background: url("../img/ghada3.png") center center no-repeat;
   background-size: cover;
   min-height: 300px;
 }
@@ -908,7 +908,9 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-img img {
-  transition: all 0.8s ease-in-out;
+  /*transition: all 0.2s ease-in-out;*/
+  width: 8px;
+  height: 8px;
 }
 
 .portfolio .portfolio-item .portfolio-info {

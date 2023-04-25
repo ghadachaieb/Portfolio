@@ -4,13 +4,22 @@
 <head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-685MYQKPQN"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PKVQXLN');</script>
+<!-- End Google Tag Manager -->
 <script>
+  
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-685MYQKPQN');
 </script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -19,8 +28,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/ghada2.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/ghada2.png"  rel="icon">
+  <link href="assets/img/ghada2.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
@@ -41,16 +50,38 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+
+      <link href="assets/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/assets/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/assets/css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="assets/assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/ghada2.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="assets/img/ghada2.png">   
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  </head>
 
 <body>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKVQXLN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto active" href="#home">Home</a></li>
         <li><a class="nav-link scrollto" href="#about">About</a></li>
         <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
         <li><a class="nav-link scrollto" href="#services">Services</a></li>
@@ -63,16 +94,27 @@
 
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>CHAIEB Ghada </h1>
-      <h2>I'm a Full Stack Developer</h2>
-      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
-    </div>
-  </section><!-- End Hero -->
 
- 
+<section id="home" class="main-banner parallaxie" style="background: url('assets/img/R.jpg')">
+		<div class="heading">
+			<h1> Chaieb Ghada </h1>			
+			<h3 class="cd-headline clip is-full-width">
+				<span>I am a </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible">
+            Data Analyst</b>
+            <b>Junior BI Consultant</b>
+            <b>Web Developer</b>
+					<b>Mobile Developer </b>
+					
+				</span>
+				<div class="btn-ber">
+					<a class="get_btn hvr-bounce-to-top" href="#about">Get started</a>
+					
+				</div>
+			</h3>
+		</div>
+	</section> 
   <main id="main">
 
     <!-- ======= About Me Section ======= -->
@@ -115,20 +157,25 @@ integrates into the professional world.
                 </div>
               </div>
             <div class="skills-content ps-lg-4">
+               <div class="progress">
+                <span class="skill">Data Analyste<i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
               <div class="progress">
                 <span class="skill">HTML <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
-
               <div class="progress">
                 <span class="skill">CSS <i class="val">90%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
-
+            
               <div class="progress">
                 <span class="skill">JavaScript <i class="val">75%</i></span>
                 <div class="progress-bar-wrap">
@@ -278,80 +325,158 @@ HTML, CSS, JavaScript, PostgreSQL, ReactJs, NodeJs,Postman
 
       </div>
     </section><!-- End My Services Section -->
- <section id="portfolio" class="portfolio section-bg">
+
+	<div id="portfolio" class="section lb">
+		<div class="container">
+                <div class="section-title">
+               <span>My Projects  </span>
+          <h2>My Projects </h2>
+      </div><!-- end title -->
+			
+			<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-center">
+						<button class="active" data-filter="*">All</button>
+						<button data-filter=".gal_a">Web Development</button>
+						<button data-filter=".gal_b">Business Intelligence</button>
+						<button data-filter=".gal_c">Mobile Development</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="gallery-list row">
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+					<div class="gallery-single fix">
+						<img src="assets/img/portfolio/web1.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="assets/img/portfolio/web1.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+					<div class="gallery-single fix">
+						<img src="assets/img/portfolio/stat1.PNG" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="assets/img/portfolio/stat1.PNG" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="assets/img/portfolio/mobile2.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="assets/img/portfolio/mobile2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="assets/img/image.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="assets/img/image.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="assets/img/portfolio/stat3.PNG" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="assets/img/portfolio/stat3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
+					<div class="gallery-single fix">
+						<img src="assets/img/image2.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="assets/img/image2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+
+  <section id="article" class="portfolio">
       <div class="container">
 
         <div class="section-title">
-          <span>My Portfolio </span>
-          <h2>My Portfolio </h2>
-<p>Dedication to success, motivation to succeed and a compulsion to exceed are the key traits that lead to personal growth.</p>
+               <span>My Article  </span>
+          <h2>My Article </h2>
+<p>Welcome to my portfolio! I am delighted to share with you my thoughts and ideas on a wide variety of topics. Whether it's lifestyle, personal development, or technology, my goal is to provide valuable information and insights to my readers.I hope you enjoy the articles I write and find useful and inspiring information. Feel free to leave comments and suggestions on topics you would like me to cover in my next articles. Thank you in advance for your support and active participation on my blog!
+ </p> 
         </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".Busiess_Intelligence">Busiess Intelligence</li>
-              <li data-filter=".filter-web">Web Development</li>
-              <li data-filter=".filter-card">Mobile Development</li> 
-            </ul>
-          </div>
+<br>
+<br><br>
+<br>
+     <div >
+    
+            <td>
+              <h2><center>Business Intelligence</center></h2>
+              <p>Business intelligence (BI) refers to the use of technology, data analysis, and reporting techniques to help businesses make informed decisions. It involves collecting, analyzing, and presenting large amounts of data in a way that enables business leaders to identify patterns, trends, and insights that can inform strategic planning and decision-making</p>
+           </td> 
+         <td>
+            <a href="portfolio-details.html"  title="More Details">
+            <center> <video src="./assets/video/ghada.mp4" width="640" height="360" controls autoplay>
+             </center>
+             </video>   
+           </a>      
+        </td>
+     
         </div>
+        <br>
+        <br>
+        <br>
+        <div >
+    
+            <td>
+              <h2><center>Artificial intelligence (AI)</center></h2>
+<p>Artificial intelligence (AI) is intelligence—perceiving, synthesizing, and inferring information—demonstrated by machines, as opposed to intelligence displayed by non-human animals or by humans. Example tasks in which this is done include speech recognition, computer vision, translation between (natural) languages, as well as other mappings of inputs.</p>
+            </td> 
+         <td>
+            <a href="portfolio-detailsIA.html"  title="More Details">
+            <center> <video src="./assets/img/ghh.mp4" width="640" height="360" controls autoplay>
+             </center>
+             </video>   
+           </a>      
+        </td>
+     
+        </div>
+        </tr> 
+      <br>
+<br><br>
+<br>
+        <tr>
+          <td>
+              <h2><center>ETL VS ELT what is the difference</center></h2>
+              <p>ETL (Extract, Transform, Load) and ELT (Extract, Load, Transform) are two common data integration processes used to move data from source systems to a target system. While both ETL and ELT serve the same general purpose of extracting data from source systems and integrating it into a target system, there are some key differences in their approach.</p>
+          </td> 
+       
+          <td>
+            <div><center><a href="portfolio-detailsETL.html" title="More Details"><img src="assets/img/article/elt.jpg" width="300px" height="200px" alt="">            
+           </a> </center></div></td>
+           
+        </div>
+        </tr>   
+        
+        
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item Busiess_Intelligence">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/stat1.PNG  " class="img-fluid" alt="dashbord mec art">
-              <img src="assets/img/portfolio/stat3.PNG  " class="img-fluid" alt="dashbord mec art">
-              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/web1.png" class="img-fluid" alt="mec art toyota">
-               <img src="assets/img/portfolio/web2.png" class="img-fluid" alt="mec art toyota">
-              
-            </div>
-          </div> 
-
-          <div class="col-lg-2 col-md-8 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/mobile3.png" class="img-fluid" alt="catastrophe naturelle affiche">
-               <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="catastrophe naturelle affiche">
-             
-            </div>
-          </div>
-
+        
+       
          
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item Busiess_Intelligence">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div> -->
-
-          
+         </table>
         </div>
+      </div>
+    </section><!-- End My Portfolio Section -->
 
       </div>
-    </section><!-- End Portfolio Section -->
-    
+    </section>  
     <!-- ======= Contact Me Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -375,9 +500,7 @@ HTML, CSS, JavaScript, PostgreSQL, ReactJs, NodeJs,Postman
                     <a href="https://www.facebook.com/ghada.chaieb.353/" class="facebook"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.instagram.com/ghada.chaieb.353/" class="instagram"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/GhadaChaieb/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://github.com/ghadachaieb" class="bx bxl-github" ></a>
-
-                    
+                    <a href="https://github.com/ghadachaieb" class="bx bxl-github" ></a>  
                   </div>
                 </div>
               </div>
@@ -398,8 +521,7 @@ HTML, CSS, JavaScript, PostgreSQL, ReactJs, NodeJs,Postman
             </div>
 
           </div>
-
-          <div class="col-lg-6">
+  <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -445,7 +567,7 @@ HTML, CSS, JavaScript, PostgreSQL, ReactJs, NodeJs,Postman
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -458,6 +580,40 @@ HTML, CSS, JavaScript, PostgreSQL, ReactJs, NodeJs,Postman
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+    <script src="assets/assets/js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="assets/assets/js/bootstrap.min.js"></script>
+    <script src="assets/assets/js/plugins.js"></script>
+    <script src="assets/assets/js/aos.js"></script>
+    <script src="assets/assets/js/jquery.form.js"></script>
+    <script src="assets/assets/js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="assets/assets/js/custom.js"></script>
+
+
+
+
+
+ <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+
+
+
+
 
 </body>
 
